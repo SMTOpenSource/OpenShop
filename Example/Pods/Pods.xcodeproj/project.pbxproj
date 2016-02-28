@@ -31,9 +31,30 @@
 		4ED230499370C393EBCEB31062C382D3 /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7511682ED488897012E4EEC14429BF /* Filter.swift */; };
 		4F7014D67EC8150191EFCC328E0F5464 /* QuickConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = F1D4A64A54F414359EC782444B27597B /* QuickConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		512DFAE728521F02AF225F0082195DCC /* Nimble.h in Headers */ = {isa = PBXBuildFile; fileRef = 784135A9193F0FE38182AF2C577B3A52 /* Nimble.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5726AE4FF912260DB823C7861109984A /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48555F16D5A94879AFE317E15ACAC54E /* ReplaceMe.swift */; };
 		58EBA2C1A43283FB2188AB1FB592D32B /* DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9040AB08CA7AEB727960E284F746A4 /* DSL.swift */; };
+		5C117EB41C83862400281BBA /* OpenShop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C117EB31C83862400281BBA /* OpenShop.swift */; };
+		5C117EB51C83862400281BBA /* OpenShop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C117EB31C83862400281BBA /* OpenShop.swift */; };
 		5C29E6AEFDD3E78F31D6B332263FCB87 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 279AA6492631DEFA8C439A9C088EEB8A /* XCTest.framework */; };
+		5C470AEA1C8380D400818F9D /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 5C470AE91C8380D400818F9D /* .gitkeep */; };
+		5C470AEB1C8380D400818F9D /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 5C470AE91C8380D400818F9D /* .gitkeep */; };
+		5C470AED1C83818C00818F9D /* ModuleProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C470AEC1C83818C00818F9D /* ModuleProtocol.swift */; };
+		5C470AEE1C83818C00818F9D /* ModuleProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C470AEC1C83818C00818F9D /* ModuleProtocol.swift */; };
+		5C470AF41C83822900818F9D /* DataProviderProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C470AF31C83822900818F9D /* DataProviderProtocol.swift */; };
+		5C470AF51C83822900818F9D /* DataProviderProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C470AF31C83822900818F9D /* DataProviderProtocol.swift */; };
+		5C470AF71C83829E00818F9D /* ModuleBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C470AF61C83829E00818F9D /* ModuleBase.swift */; };
+		5C470AF81C83829E00818F9D /* ModuleBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C470AF61C83829E00818F9D /* ModuleBase.swift */; };
+		5C470AFD1C83833E00818F9D /* CustomerModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C470AFC1C83833E00818F9D /* CustomerModule.swift */; };
+		5C470AFE1C83833E00818F9D /* CustomerModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C470AFC1C83833E00818F9D /* CustomerModule.swift */; };
+		5C470B001C83834B00818F9D /* CustomerModuleProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C470AFF1C83834B00818F9D /* CustomerModuleProtocol.swift */; };
+		5C470B011C83834B00818F9D /* CustomerModuleProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C470AFF1C83834B00818F9D /* CustomerModuleProtocol.swift */; };
+		5C470B031C8383B200818F9D /* ProductModuleProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C470B021C8383B200818F9D /* ProductModuleProtocol.swift */; };
+		5C470B041C8383B200818F9D /* ProductModuleProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C470B021C8383B200818F9D /* ProductModuleProtocol.swift */; };
+		5C470B061C8383BE00818F9D /* ProductModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C470B051C8383BE00818F9D /* ProductModule.swift */; };
+		5C470B071C8383BE00818F9D /* ProductModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C470B051C8383BE00818F9D /* ProductModule.swift */; };
+		5C470B091C83844400818F9D /* TransactionModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C470B081C83844400818F9D /* TransactionModule.swift */; };
+		5C470B0A1C83844400818F9D /* TransactionModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C470B081C83844400818F9D /* TransactionModule.swift */; };
+		5C470B0C1C83844D00818F9D /* TransactionModuleProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C470B0B1C83844D00818F9D /* TransactionModuleProtocol.swift */; };
+		5C470B0D1C83844D00818F9D /* TransactionModuleProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C470B0B1C83844D00818F9D /* TransactionModuleProtocol.swift */; };
 		60E266B926364880E060D24D783939DC /* ExampleMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38715BF4570032AE706B97AB11365E48 /* ExampleMetadata.swift */; };
 		61A5ECD3F14910FF8ADE40B83EE04872 /* QuickConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = AE670FBBCC7FBB0E81F05DA0C8EAAEE5 /* QuickConfiguration.m */; };
 		63B58CB7FD8EC114E384582F71667817 /* QuickSpec.h in Headers */ = {isa = PBXBuildFile; fileRef = 8880B82EFD81A0D6EE2BBD27A39D61BA /* QuickSpec.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -167,7 +188,6 @@
 		3F1975D001BFB447009180BAF8C14ADB /* Quick-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Quick-prefix.pch"; sourceTree = "<group>"; };
 		40FBD52025077E5788ADCE71EF040393 /* NMBExceptionCapture.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NMBExceptionCapture.h; path = Nimble/objc/NMBExceptionCapture.h; sourceTree = "<group>"; };
 		41A9F1FB9A5761C91822EA0CD3775F1C /* Pods-OpenShop_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OpenShop_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		48555F16D5A94879AFE317E15ACAC54E /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
 		4930275AC98E3FD0F3BC81A7D08B8591 /* SourceLocation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SourceLocation.swift; path = Nimble/Utils/SourceLocation.swift; sourceTree = "<group>"; };
 		4A827AC511BAC23B44B167E67B0EEAAE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4C0EAA5BA062125C64E6A819695F87C6 /* World.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = World.h; path = Quick/World.h; sourceTree = "<group>"; };
@@ -177,6 +197,17 @@
 		5596CB4CEA7B7B71461C9ECE75263656 /* NimbleXCTestHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NimbleXCTestHandler.swift; path = Nimble/Adapters/NimbleXCTestHandler.swift; sourceTree = "<group>"; };
 		58CD57ED9D79412A49A037E8EAA4AF42 /* BeginWith.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeginWith.swift; path = Nimble/Matchers/BeginWith.swift; sourceTree = "<group>"; };
 		5BF695047E0AAFB3CA54EC10F0E97FD3 /* Configuration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Configuration.swift; path = Quick/Configuration/Configuration.swift; sourceTree = "<group>"; };
+		5C117EB31C83862400281BBA /* OpenShop.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpenShop.swift; sourceTree = "<group>"; };
+		5C470AE91C8380D400818F9D /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		5C470AEC1C83818C00818F9D /* ModuleProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModuleProtocol.swift; sourceTree = "<group>"; };
+		5C470AF31C83822900818F9D /* DataProviderProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataProviderProtocol.swift; sourceTree = "<group>"; };
+		5C470AF61C83829E00818F9D /* ModuleBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModuleBase.swift; sourceTree = "<group>"; };
+		5C470AFC1C83833E00818F9D /* CustomerModule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomerModule.swift; sourceTree = "<group>"; };
+		5C470AFF1C83834B00818F9D /* CustomerModuleProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomerModuleProtocol.swift; sourceTree = "<group>"; };
+		5C470B021C8383B200818F9D /* ProductModuleProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductModuleProtocol.swift; sourceTree = "<group>"; };
+		5C470B051C8383BE00818F9D /* ProductModule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductModule.swift; sourceTree = "<group>"; };
+		5C470B081C83844400818F9D /* TransactionModule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionModule.swift; sourceTree = "<group>"; };
+		5C470B0B1C83844D00818F9D /* TransactionModuleProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionModuleProtocol.swift; sourceTree = "<group>"; };
 		5D6A2E71DBC9D0DE17402BCFCFEEBDB2 /* Nimble-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Nimble-prefix.pch"; sourceTree = "<group>"; };
 		616BFD5BF73AEF373E5250D05560A338 /* Quick-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Quick-dummy.m"; sourceTree = "<group>"; };
 		62241019A9DFE31F82A2CDF8690A163C /* QuickSpec.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QuickSpec.m; path = Quick/QuickSpec.m; sourceTree = "<group>"; };
@@ -387,6 +418,77 @@
 			path = "Target Support Files/Pods-OpenShop_Example";
 			sourceTree = "<group>";
 		};
+		5C470AE81C8380D400818F9D /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				5C470AE91C8380D400818F9D /* .gitkeep */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		5C470AEF1C8381EC00818F9D /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				5C470AF61C83829E00818F9D /* ModuleBase.swift */,
+				5C470AEC1C83818C00818F9D /* ModuleProtocol.swift */,
+				5C470AF91C83830200818F9D /* Customers */,
+				5C470AFB1C83830F00818F9D /* Products */,
+				5C470AFA1C83830900818F9D /* Transactions */,
+			);
+			name = Modules;
+			sourceTree = "<group>";
+		};
+		5C470AF01C83820E00818F9D /* Shop */ = {
+			isa = PBXGroup;
+			children = (
+				5C117EB31C83862400281BBA /* OpenShop.swift */,
+			);
+			name = Shop;
+			sourceTree = "<group>";
+		};
+		5C470AF11C83821300818F9D /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				5C470AF21C83821A00818F9D /* DataProvider */,
+			);
+			name = Tools;
+			sourceTree = "<group>";
+		};
+		5C470AF21C83821A00818F9D /* DataProvider */ = {
+			isa = PBXGroup;
+			children = (
+				5C470AF31C83822900818F9D /* DataProviderProtocol.swift */,
+			);
+			name = DataProvider;
+			sourceTree = "<group>";
+		};
+		5C470AF91C83830200818F9D /* Customers */ = {
+			isa = PBXGroup;
+			children = (
+				5C470AFC1C83833E00818F9D /* CustomerModule.swift */,
+				5C470AFF1C83834B00818F9D /* CustomerModuleProtocol.swift */,
+			);
+			name = Customers;
+			sourceTree = "<group>";
+		};
+		5C470AFA1C83830900818F9D /* Transactions */ = {
+			isa = PBXGroup;
+			children = (
+				5C470B081C83844400818F9D /* TransactionModule.swift */,
+				5C470B0B1C83844D00818F9D /* TransactionModuleProtocol.swift */,
+			);
+			name = Transactions;
+			sourceTree = "<group>";
+		};
+		5C470AFB1C83830F00818F9D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C470B051C8383BE00818F9D /* ProductModule.swift */,
+				5C470B021C8383B200818F9D /* ProductModuleProtocol.swift */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		63E66DD91F019599383A51CAEA7FE619 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -434,6 +536,7 @@
 		6A16BE04826946C1E6D81E4B8642CD8B /* Pod */ = {
 			isa = PBXGroup;
 			children = (
+				5C470AE81C8380D400818F9D /* Assets */,
 				9A6434626E15C33E577D977E5F21BC1D /* Classes */,
 			);
 			path = Pod;
@@ -463,7 +566,9 @@
 		9A6434626E15C33E577D977E5F21BC1D /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				48555F16D5A94879AFE317E15ACAC54E /* ReplaceMe.swift */,
+				5C470AF11C83821300818F9D /* Tools */,
+				5C470AF01C83820E00818F9D /* Shop */,
+				5C470AEF1C8381EC00818F9D /* Modules */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -724,7 +829,7 @@
 		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0700;
+				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 0700;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
@@ -754,6 +859,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C470AEB1C8380D400818F9D /* .gitkeep in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -762,6 +868,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F165024F4C652AF68EE37804751E772F /* OpenShop.bundle in Resources */,
+				5C470AEA1C8380D400818F9D /* .gitkeep in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -780,8 +887,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C470B0C1C83844D00818F9D /* TransactionModuleProtocol.swift in Sources */,
+				5C470AF41C83822900818F9D /* DataProviderProtocol.swift in Sources */,
+				5C470AF71C83829E00818F9D /* ModuleBase.swift in Sources */,
+				5C470AFD1C83833E00818F9D /* CustomerModule.swift in Sources */,
 				2BA304EF7859D2FC474D178880A0C3E3 /* OpenShop-dummy.m in Sources */,
-				5726AE4FF912260DB823C7861109984A /* ReplaceMe.swift in Sources */,
+				5C470B031C8383B200818F9D /* ProductModuleProtocol.swift in Sources */,
+				5C470B061C8383BE00818F9D /* ProductModule.swift in Sources */,
+				5C470AED1C83818C00818F9D /* ModuleProtocol.swift in Sources */,
+				5C470B091C83844400818F9D /* TransactionModule.swift in Sources */,
+				5C117EB41C83862400281BBA /* OpenShop.swift in Sources */,
+				5C470B001C83834B00818F9D /* CustomerModuleProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -821,6 +937,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C470AF51C83822900818F9D /* DataProviderProtocol.swift in Sources */,
+				5C470AF81C83829E00818F9D /* ModuleBase.swift in Sources */,
+				5C470B0D1C83844D00818F9D /* TransactionModuleProtocol.swift in Sources */,
+				5C470B071C8383BE00818F9D /* ProductModule.swift in Sources */,
+				5C470AEE1C83818C00818F9D /* ModuleProtocol.swift in Sources */,
+				5C470B011C83834B00818F9D /* CustomerModuleProtocol.swift in Sources */,
+				5C470AFE1C83833E00818F9D /* CustomerModule.swift in Sources */,
+				5C117EB51C83862400281BBA /* OpenShop.swift in Sources */,
+				5C470B0A1C83844400818F9D /* TransactionModule.swift in Sources */,
+				5C470B041C8383B200818F9D /* ProductModuleProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1032,10 +1158,13 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6A9FB37E2C446C2943F44DCC9FF6418D /* OpenShop.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = OpenShop;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				WRAPPER_EXTENSION = bundle;
 			};
 			name = Debug;
@@ -1199,7 +1328,9 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6A9FB37E2C446C2943F44DCC9FF6418D /* OpenShop.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = OpenShop;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;

@@ -4,11 +4,13 @@
 [![License](https://img.shields.io/cocoapods/l/OpenShop.svg?style=flat)](http://cocoapods.org/pods/OpenShop)
 [![Platform](https://img.shields.io/cocoapods/p/OpenShop.svg?style=flat)](http://cocoapods.org/pods/OpenShop)
 
-## Usage
+OpenShop is an eCommerce framweork written in Swift 
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+## Features
 
 ## Requirements
+
+- iOS 8.0+ / tvOS 9.0+
 
 ## Installation
 
@@ -18,6 +20,10 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod "OpenShop"
 ```
+
+## Usage
+
+To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Author
 

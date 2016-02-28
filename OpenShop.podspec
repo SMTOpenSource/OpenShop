@@ -9,10 +9,10 @@
 Pod::Spec.new do |s|
   s.name             = "OpenShop"
   s.version          = "0.1.0"
-  s.summary          = "A short description of OpenShop."
+  s.summary          = "OpenShop is an eCommerce framweork written in Swift."
 
   s.description      = <<-DESC
-                       TBD
+                       OpenShop is an eCommerce framweork written in Swift.
 
   s.homepage         = "https://github.com/SMTOpenSource/OpenShop"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
@@ -21,7 +21,8 @@ Pod::Spec.new do |s|
   s.source           = { :git => "https://github.com/SMTOpenSource/OpenShop.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.platform     = :ios, '8.0'
+  s.ios.deployment_target = '8.0'
+  s.tvos.deployment_target = '9.0'
   s.requires_arc = true
 
   s.source_files = 'Pod/Classes/**/*'
