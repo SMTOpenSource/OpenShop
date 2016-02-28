@@ -12,8 +12,8 @@ Pod::Spec.new do |s|
   s.summary          = "OpenShop is an eCommerce framweork written in Swift."
 
   s.description      = <<-DESC
-                       OpenShop is an eCommerce framweork written in Swift.
-
+OpenShop is an eCommerce framweork written in Swift.(...)
+                          DESC
   s.homepage         = "https://github.com/SMTOpenSource/OpenShop"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
