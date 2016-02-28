@@ -1,6 +1,5 @@
 # OpenShop
-
-[![CI Status](http://img.shields.io/travis/Jakub Długosz/OpenShop.svg?style=flat)](https://travis-ci.org/Jakub Długosz/OpenShop)
+[![CI Status](https://travis-ci.org/SMTOpenSource/OpenShop.svg?branch=master)](https://travis-ci.org/SMTOpenSource/OpenShop)
 [![Version](https://img.shields.io/cocoapods/v/OpenShop.svg?style=flat)](http://cocoapods.org/pods/OpenShop)
 [![License](https://img.shields.io/cocoapods/l/OpenShop.svg?style=flat)](http://cocoapods.org/pods/OpenShop)
 [![Platform](https://img.shields.io/cocoapods/p/OpenShop.svg?style=flat)](http://cocoapods.org/pods/OpenShop)

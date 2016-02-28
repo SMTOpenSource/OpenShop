@@ -1,0 +1,6 @@
+framework module OpenShop {
+  umbrella header "OpenShop-umbrella.h"
+
+  export *
+  module * { export * }
+}
