@@ -1,0 +1,6 @@
+framework module Pods_OpenShop_TV_Tests {
+  umbrella header "Pods-OpenShop_TV_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

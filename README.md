@@ -4,9 +4,19 @@
 [![License](https://img.shields.io/cocoapods/l/OpenShop.svg?style=flat)](http://cocoapods.org/pods/OpenShop)
 [![Platform](https://img.shields.io/cocoapods/p/OpenShop.svg?style=flat)](http://cocoapods.org/pods/OpenShop)
 
-OpenShop is an eCommerce framweork written in Swift 
+OpenShop is an Open Source framework designed to simplify creation of eCommerce solutions. 
+
+This framework is a set of tools designed to provide a busines logic for things like: 
+* Customer management
+* Orders
+* Products
+* etc
+
+To create an application based on the framework, a developer should focus on writing a presentation layer, and providing data for the services.
 
 ## Features
+
+* TBD
 
 ## Requirements
 

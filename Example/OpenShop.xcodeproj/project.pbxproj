@@ -14,8 +14,16 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* ModuleBaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* ModuleBaseTests.swift */; };
-		7AFDBA540BE455C677C6B5DA /* Pods_OpenShop_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A8FF24124A9A82223C4C8DE /* Pods_OpenShop_Tests.framework */; };
-		91707A0401E79C8A167AB5AE /* Pods_OpenShop_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AD2C49FA1DC486E8EA74E74 /* Pods_OpenShop_Example.framework */; };
+		D0BFE42DBD95B487B7D2CBC1 /* Pods_OpenShop_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE75D600F9F5377463BD5180 /* Pods_OpenShop_Example.framework */; };
+		D43B4377C2AD6F4E95C4E444 /* Pods_OpenShop_TV_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1886A3F55CA1C6CEB337BE4 /* Pods_OpenShop_TV_Example.framework */; };
+		D92633B6750232A218E587D9 /* Pods_OpenShop_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9FD20198955B40D934F0BFE /* Pods_OpenShop_Tests.framework */; };
+		DF2291968EEB89BD57228D6A /* Pods_OpenShop_TV_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73629F4E54BA2296EA08E728 /* Pods_OpenShop_TV_Tests.framework */; };
+		E9718D4F1C844B2600808C4F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9718D4E1C844B2600808C4F /* AppDelegate.swift */; };
+		E9718D511C844B2600808C4F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9718D501C844B2600808C4F /* ViewController.swift */; };
+		E9718D541C844B2600808C4F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9718D521C844B2600808C4F /* Main.storyboard */; };
+		E9718D561C844B2600808C4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9718D551C844B2600808C4F /* Assets.xcassets */; };
+		E9718D691C844BB500808C4F /* ModuleBaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* ModuleBaseTests.swift */; };
+		E9718D6A1C84556900808C4F /* DataProviderMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C117EB81C83AB3700281BBA /* DataProviderMock.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,11 +34,20 @@
 			remoteGlobalIDString = 607FACCF1AFB9204008FA782;
 			remoteInfo = OpenShop;
 		};
+		E9718D5D1C844B2600808C4F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 607FACC81AFB9204008FA782 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9718D4B1C844B2600808C4F;
+			remoteInfo = OpenShop_TV_Example;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		09C7EF7DD8C25C9B92846662 /* Pods-OpenShop_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenShop_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-OpenShop_Example/Pods-OpenShop_Example.release.xcconfig"; sourceTree = "<group>"; };
-		52699CC02367ACA9044B9CB7 /* Pods-OpenShop_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenShop_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OpenShop_Tests/Pods-OpenShop_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		04367BB43EBA07E55270D8E0 /* Pods-OpenShop_TV_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenShop_TV_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-OpenShop_TV_Tests/Pods-OpenShop_TV_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		064211E670E84E7860129B9C /* Pods-OpenShop_TV_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenShop_TV_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OpenShop_TV_Tests/Pods-OpenShop_TV_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		2DEC3AF24360949F770ABA4F /* Pods-OpenShop_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenShop_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-OpenShop_Tests/Pods-OpenShop_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		4543C0D9E7F0066A0D17352D /* Pods-OpenShop_TV_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenShop_TV_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OpenShop_TV_Example/Pods-OpenShop_TV_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		5C117EB81C83AB3700281BBA /* DataProviderMock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataProviderMock.swift; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* OpenShop_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenShop_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -42,12 +59,23 @@
 		607FACE51AFB9204008FA782 /* OpenShop_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenShop_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* ModuleBaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModuleBaseTests.swift; sourceTree = "<group>"; };
-		8A8FF24124A9A82223C4C8DE /* Pods_OpenShop_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OpenShop_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9AD2C49FA1DC486E8EA74E74 /* Pods_OpenShop_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OpenShop_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		73629F4E54BA2296EA08E728 /* Pods_OpenShop_TV_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OpenShop_TV_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B129D478FC56B595B3017B3C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		BE5CC6D3AFCCAD227CCA8FC7 /* Pods-OpenShop_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenShop_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OpenShop_Example/Pods-OpenShop_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		C720D0D7FF5570BB26283A0D /* Pods-OpenShop_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenShop_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-OpenShop_Tests/Pods-OpenShop_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		B24EC9DB1F78C1DA9660A34F /* Pods-OpenShop_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenShop_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-OpenShop_Example/Pods-OpenShop_Example.release.xcconfig"; sourceTree = "<group>"; };
+		BE75D600F9F5377463BD5180 /* Pods_OpenShop_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OpenShop_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D66D0C1CAC6684E9973BB7AF /* Pods-OpenShop_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenShop_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OpenShop_Example/Pods-OpenShop_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		D9FD20198955B40D934F0BFE /* Pods_OpenShop_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OpenShop_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBEFEF1DFFAF39354CF3BF14 /* Pods-OpenShop_TV_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenShop_TV_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-OpenShop_TV_Example/Pods-OpenShop_TV_Example.release.xcconfig"; sourceTree = "<group>"; };
+		E036903154660A7B3DB60B5C /* Pods-OpenShop_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenShop_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OpenShop_Tests/Pods-OpenShop_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		E7685150655417969287D31A /* OpenShop.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = OpenShop.podspec; path = ../OpenShop.podspec; sourceTree = "<group>"; };
+		E9718D4C1C844B2600808C4F /* OpenShop_TV_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenShop_TV_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9718D4E1C844B2600808C4F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E9718D501C844B2600808C4F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E9718D531C844B2600808C4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E9718D551C844B2600808C4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E9718D571C844B2600808C4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9718D5C1C844B2600808C4F /* OpenShop_TV_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenShop_TV_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1886A3F55CA1C6CEB337BE4 /* Pods_OpenShop_TV_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OpenShop_TV_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F58ED0794AE24194A66A51B0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -56,7 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				91707A0401E79C8A167AB5AE /* Pods_OpenShop_Example.framework in Frameworks */,
+				D0BFE42DBD95B487B7D2CBC1 /* Pods_OpenShop_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,24 +92,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7AFDBA540BE455C677C6B5DA /* Pods_OpenShop_Tests.framework in Frameworks */,
+				D92633B6750232A218E587D9 /* Pods_OpenShop_Tests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9718D491C844B2600808C4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D43B4377C2AD6F4E95C4E444 /* Pods_OpenShop_TV_Example.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9718D591C844B2600808C4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF2291968EEB89BD57228D6A /* Pods_OpenShop_TV_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0DF019FB1AFDB31F68E284A8 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				BE5CC6D3AFCCAD227CCA8FC7 /* Pods-OpenShop_Example.debug.xcconfig */,
-				09C7EF7DD8C25C9B92846662 /* Pods-OpenShop_Example.release.xcconfig */,
-				52699CC02367ACA9044B9CB7 /* Pods-OpenShop_Tests.debug.xcconfig */,
-				C720D0D7FF5570BB26283A0D /* Pods-OpenShop_Tests.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		5C117EB61C83AB1F00281BBA /* ModuleTests */ = {
 			isa = PBXGroup;
 			children = (
@@ -103,11 +136,12 @@
 			isa = PBXGroup;
 			children = (
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
-				607FACD21AFB9204008FA782 /* Example for OpenShop */,
+				607FACD21AFB9204008FA782 /* iOS_Example */,
+				E9718D4D1C844B2600808C4F /* tvOS_Example */,
 				607FACE81AFB9204008FA782 /* Tests */,
 				607FACD11AFB9204008FA782 /* Products */,
-				0DF019FB1AFDB31F68E284A8 /* Pods */,
-				A9D2EC68A3B54A113F17D13A /* Frameworks */,
+				90875E8AEA0EC7E76CEAB52B /* Pods */,
+				D6594F41A77D6B7B757FD2C1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -116,11 +150,13 @@
 			children = (
 				607FACD01AFB9204008FA782 /* OpenShop_Example.app */,
 				607FACE51AFB9204008FA782 /* OpenShop_Tests.xctest */,
+				E9718D4C1C844B2600808C4F /* OpenShop_TV_Example.app */,
+				E9718D5C1C844B2600808C4F /* OpenShop_TV_Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		607FACD21AFB9204008FA782 /* Example for OpenShop */ = {
+		607FACD21AFB9204008FA782 /* iOS_Example */ = {
 			isa = PBXGroup;
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
@@ -130,7 +166,7 @@
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
 			);
-			name = "Example for OpenShop";
+			name = iOS_Example;
 			path = OpenShop;
 			sourceTree = "<group>";
 		};
@@ -169,13 +205,43 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
-		A9D2EC68A3B54A113F17D13A /* Frameworks */ = {
+		90875E8AEA0EC7E76CEAB52B /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				9AD2C49FA1DC486E8EA74E74 /* Pods_OpenShop_Example.framework */,
-				8A8FF24124A9A82223C4C8DE /* Pods_OpenShop_Tests.framework */,
+				D66D0C1CAC6684E9973BB7AF /* Pods-OpenShop_Example.debug.xcconfig */,
+				B24EC9DB1F78C1DA9660A34F /* Pods-OpenShop_Example.release.xcconfig */,
+				4543C0D9E7F0066A0D17352D /* Pods-OpenShop_TV_Example.debug.xcconfig */,
+				DBEFEF1DFFAF39354CF3BF14 /* Pods-OpenShop_TV_Example.release.xcconfig */,
+				064211E670E84E7860129B9C /* Pods-OpenShop_TV_Tests.debug.xcconfig */,
+				04367BB43EBA07E55270D8E0 /* Pods-OpenShop_TV_Tests.release.xcconfig */,
+				E036903154660A7B3DB60B5C /* Pods-OpenShop_Tests.debug.xcconfig */,
+				2DEC3AF24360949F770ABA4F /* Pods-OpenShop_Tests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D6594F41A77D6B7B757FD2C1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BE75D600F9F5377463BD5180 /* Pods_OpenShop_Example.framework */,
+				F1886A3F55CA1C6CEB337BE4 /* Pods_OpenShop_TV_Example.framework */,
+				73629F4E54BA2296EA08E728 /* Pods_OpenShop_TV_Tests.framework */,
+				D9FD20198955B40D934F0BFE /* Pods_OpenShop_Tests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E9718D4D1C844B2600808C4F /* tvOS_Example */ = {
+			isa = PBXGroup;
+			children = (
+				E9718D4E1C844B2600808C4F /* AppDelegate.swift */,
+				E9718D501C844B2600808C4F /* ViewController.swift */,
+				E9718D521C844B2600808C4F /* Main.storyboard */,
+				E9718D551C844B2600808C4F /* Assets.xcassets */,
+				E9718D571C844B2600808C4F /* Info.plist */,
+			);
+			name = tvOS_Example;
+			path = OpenShop_TV_Example;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -185,12 +251,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "OpenShop_Example" */;
 			buildPhases = (
-				64F554527D139060E430F928 /* Check Pods Manifest.lock */,
+				14BDD6FD02A2E974D6D292CC /* Check Pods Manifest.lock */,
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
-				B6558C64F7AA75E23BC54841 /* Embed Pods Frameworks */,
-				FDF12A354109AFF89AB79556 /* Copy Pods Resources */,
+				5E58C03A043B7DB169D3B56B /* Embed Pods Frameworks */,
+				F0F52DF2E798D9DE0019F96D /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -205,12 +271,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "OpenShop_Tests" */;
 			buildPhases = (
-				DA480493F5FD2C083A32D7D7 /* Check Pods Manifest.lock */,
+				FB3C4CE081FBA797D2B762EF /* Check Pods Manifest.lock */,
 				607FACE11AFB9204008FA782 /* Sources */,
 				607FACE21AFB9204008FA782 /* Frameworks */,
 				607FACE31AFB9204008FA782 /* Resources */,
-				242AECE91F19F2974FAA09CB /* Embed Pods Frameworks */,
-				F49FA55B45BA3F175E2355CD /* Copy Pods Resources */,
+				9FAD396F637C831578DEF3C3 /* Embed Pods Frameworks */,
+				5519046B1FC974D2427E92EE /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -222,13 +288,54 @@
 			productReference = 607FACE51AFB9204008FA782 /* OpenShop_Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		E9718D4B1C844B2600808C4F /* OpenShop_TV_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9718D671C844B2600808C4F /* Build configuration list for PBXNativeTarget "OpenShop_TV_Example" */;
+			buildPhases = (
+				5E34673F8F9552172085B67C /* Check Pods Manifest.lock */,
+				E9718D481C844B2600808C4F /* Sources */,
+				E9718D491C844B2600808C4F /* Frameworks */,
+				E9718D4A1C844B2600808C4F /* Resources */,
+				8CE5049D9AB2CB6348759E89 /* Embed Pods Frameworks */,
+				503B14D9A2995513E30C7689 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OpenShop_TV_Example;
+			productName = OpenShop_TV_Example;
+			productReference = E9718D4C1C844B2600808C4F /* OpenShop_TV_Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E9718D5B1C844B2600808C4F /* OpenShop_TV_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9718D681C844B2600808C4F /* Build configuration list for PBXNativeTarget "OpenShop_TV_Tests" */;
+			buildPhases = (
+				461A0DDB789475A695053BA0 /* Check Pods Manifest.lock */,
+				E9718D581C844B2600808C4F /* Sources */,
+				E9718D591C844B2600808C4F /* Frameworks */,
+				E9718D5A1C844B2600808C4F /* Resources */,
+				23082889A271BB5661FE6309 /* Embed Pods Frameworks */,
+				FD7AF25A0933509FBF7D8CA2 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E9718D5E1C844B2600808C4F /* PBXTargetDependency */,
+			);
+			name = OpenShop_TV_Tests;
+			productName = OpenShop_TV_ExampleTests;
+			productReference = E9718D5C1C844B2600808C4F /* OpenShop_TV_Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		607FACC81AFB9204008FA782 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0720;
+				LastSwiftUpdateCheck = 0710;
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
@@ -238,6 +345,13 @@
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
 						TestTargetID = 607FACCF1AFB9204008FA782;
+					};
+					E9718D4B1C844B2600808C4F = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					E9718D5B1C844B2600808C4F = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = E9718D4B1C844B2600808C4F;
 					};
 				};
 			};
@@ -256,6 +370,8 @@
 			targets = (
 				607FACCF1AFB9204008FA782 /* OpenShop_Example */,
 				607FACE41AFB9204008FA782 /* OpenShop_Tests */,
+				E9718D4B1C844B2600808C4F /* OpenShop_TV_Example */,
+				E9718D5B1C844B2600808C4F /* OpenShop_TV_Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -278,25 +394,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E9718D4A1C844B2600808C4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9718D561C844B2600808C4F /* Assets.xcassets in Resources */,
+				E9718D541C844B2600808C4F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9718D5A1C844B2600808C4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		242AECE91F19F2974FAA09CB /* Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OpenShop_Tests/Pods-OpenShop_Tests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		64F554527D139060E430F928 /* Check Pods Manifest.lock */ = {
+		14BDD6FD02A2E974D6D292CC /* Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -311,7 +428,7 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		B6558C64F7AA75E23BC54841 /* Embed Pods Frameworks */ = {
+		23082889A271BB5661FE6309 /* Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -323,10 +440,10 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OpenShop_Example/Pods-OpenShop_Example-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OpenShop_TV_Tests/Pods-OpenShop_TV_Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		DA480493F5FD2C083A32D7D7 /* Check Pods Manifest.lock */ = {
+		461A0DDB789475A695053BA0 /* Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -341,7 +458,22 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		F49FA55B45BA3F175E2355CD /* Copy Pods Resources */ = {
+		503B14D9A2995513E30C7689 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OpenShop_TV_Example/Pods-OpenShop_TV_Example-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5519046B1FC974D2427E92EE /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -356,7 +488,67 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OpenShop_Tests/Pods-OpenShop_Tests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		FDF12A354109AFF89AB79556 /* Copy Pods Resources */ = {
+		5E34673F8F9552172085B67C /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5E58C03A043B7DB169D3B56B /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OpenShop_Example/Pods-OpenShop_Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8CE5049D9AB2CB6348759E89 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OpenShop_TV_Example/Pods-OpenShop_TV_Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9FAD396F637C831578DEF3C3 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OpenShop_Tests/Pods-OpenShop_Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F0F52DF2E798D9DE0019F96D /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -369,6 +561,36 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OpenShop_Example/Pods-OpenShop_Example-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB3C4CE081FBA797D2B762EF /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FD7AF25A0933509FBF7D8CA2 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OpenShop_TV_Tests/Pods-OpenShop_TV_Tests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -392,6 +614,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E9718D481C844B2600808C4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9718D511C844B2600808C4F /* ViewController.swift in Sources */,
+				E9718D4F1C844B2600808C4F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9718D581C844B2600808C4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9718D6A1C84556900808C4F /* DataProviderMock.swift in Sources */,
+				E9718D691C844BB500808C4F /* ModuleBaseTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -399,6 +639,11 @@
 			isa = PBXTargetDependency;
 			target = 607FACCF1AFB9204008FA782 /* OpenShop_Example */;
 			targetProxy = 607FACE61AFB9204008FA782 /* PBXContainerItemProxy */;
+		};
+		E9718D5E1C844B2600808C4F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E9718D4B1C844B2600808C4F /* OpenShop_TV_Example */;
+			targetProxy = E9718D5D1C844B2600808C4F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -417,6 +662,14 @@
 				607FACDF1AFB9204008FA782 /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		E9718D521C844B2600808C4F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9718D531C844B2600808C4F /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -506,33 +759,33 @@
 		};
 		607FACF01AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BE5CC6D3AFCCAD227CCA8FC7 /* Pods-OpenShop_Example.debug.xcconfig */;
+			baseConfigurationReference = D66D0C1CAC6684E9973BB7AF /* Pods-OpenShop_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = OpenShop/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = smtopensource.openshop.ios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
 		607FACF11AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 09C7EF7DD8C25C9B92846662 /* Pods-OpenShop_Example.release.xcconfig */;
+			baseConfigurationReference = B24EC9DB1F78C1DA9660A34F /* Pods-OpenShop_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = OpenShop/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = smtopensource.openshop.ios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
 		607FACF31AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 52699CC02367ACA9044B9CB7 /* Pods-OpenShop_Tests.debug.xcconfig */;
+			baseConfigurationReference = E036903154660A7B3DB60B5C /* Pods-OpenShop_Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -547,13 +800,14 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpenShop_Example.app/OpenShop_Example";
 			};
 			name = Debug;
 		};
 		607FACF41AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C720D0D7FF5570BB26283A0D /* Pods-OpenShop_Tests.release.xcconfig */;
+			baseConfigurationReference = 2DEC3AF24360949F770ABA4F /* Pods-OpenShop_Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -564,7 +818,74 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpenShop_Example.app/OpenShop_Example";
+			};
+			name = Release;
+		};
+		E9718D631C844B2600808C4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4543C0D9E7F0066A0D17352D /* Pods-OpenShop_TV_Example.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = OpenShop_TV_Example/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = smtopensource.openshop.tvos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		E9718D641C844B2600808C4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBEFEF1DFFAF39354CF3BF14 /* Pods-OpenShop_TV_Example.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = OpenShop_TV_Example/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = smtopensource.openshop.tvos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Release;
+		};
+		E9718D651C844B2600808C4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 064211E670E84E7860129B9C /* Pods-OpenShop_TV_Tests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "test.com.OpenShop-TV-ExampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpenShop_TV_Example.app/OpenShop_TV_Example";
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		E9718D661C844B2600808C4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04367BB43EBA07E55270D8E0 /* Pods-OpenShop_TV_Tests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "test.com.OpenShop-TV-ExampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpenShop_TV_Example.app/OpenShop_TV_Example";
+				TVOS_DEPLOYMENT_TARGET = 9.0;
 			};
 			name = Release;
 		};
@@ -594,6 +915,24 @@
 			buildConfigurations = (
 				607FACF31AFB9204008FA782 /* Debug */,
 				607FACF41AFB9204008FA782 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9718D671C844B2600808C4F /* Build configuration list for PBXNativeTarget "OpenShop_TV_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9718D631C844B2600808C4F /* Debug */,
+				E9718D641C844B2600808C4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9718D681C844B2600808C4F /* Build configuration list for PBXNativeTarget "OpenShop_TV_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9718D651C844B2600808C4F /* Debug */,
+				E9718D661C844B2600808C4F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -84,12 +84,12 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework "Pods-OpenShop_Tests/OpenShop.framework"
-  install_framework "Pods-OpenShop_Tests/Nimble.framework"
-  install_framework "Pods-OpenShop_Tests/Quick.framework"
+  install_framework "$CONFIGURATION_BUILD_DIR/OpenShop-iOS/OpenShop.framework"
+  install_framework "$CONFIGURATION_BUILD_DIR/Nimble-iOS/Nimble.framework"
+  install_framework "$CONFIGURATION_BUILD_DIR/Quick-iOS/Quick.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_framework "Pods-OpenShop_Tests/OpenShop.framework"
-  install_framework "Pods-OpenShop_Tests/Nimble.framework"
-  install_framework "Pods-OpenShop_Tests/Quick.framework"
+  install_framework "$CONFIGURATION_BUILD_DIR/OpenShop-iOS/OpenShop.framework"
+  install_framework "$CONFIGURATION_BUILD_DIR/Nimble-iOS/Nimble.framework"
+  install_framework "$CONFIGURATION_BUILD_DIR/Quick-iOS/Quick.framework"
 fi

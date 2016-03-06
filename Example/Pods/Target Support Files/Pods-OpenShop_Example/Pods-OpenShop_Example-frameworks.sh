@@ -84,8 +84,8 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework "Pods-OpenShop_Example/OpenShop.framework"
+  install_framework "$CONFIGURATION_BUILD_DIR/OpenShop-iOS/OpenShop.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_framework "Pods-OpenShop_Example/OpenShop.framework"
+  install_framework "$CONFIGURATION_BUILD_DIR/OpenShop-iOS/OpenShop.framework"
 fi

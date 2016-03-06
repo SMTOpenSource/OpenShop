@@ -1,13 +1,37 @@
 source 'https://github.com/CocoaPods/Specs.git'
 use_frameworks!
 
-target 'OpenShop_Example', :exclusive => true do
-  pod 'OpenShop', :path => '../'
+
+target 'OpenShop_Example' do
+    pod 'OpenShop', :path => '../'
 end
 
-target 'OpenShop_Tests', :exclusive => true do
-  pod 'OpenShop', :path => '../'
+target 'OpenShop_TV_Example' do
+    platform :tvos, '9.0'
+    pod 'OpenShop', :path => '../'
+end
 
-  pod 'Quick', '~> 0.8.0'
-  pod 'Nimble', '3.0.0'
+target 'OpenShop_Tests' do
+    pod 'OpenShop', :path => '../'
+    
+    pod 'Quick', '~> 0.8.0'
+    pod 'Nimble', '3.0.0'
+end
+
+target 'OpenShop_TV_Tests' do
+    platform :tvos, '9.0'
+    pod 'OpenShop', :path => '../'
+    
+    pod 'Quick', '~> 0.8.0'
+    pod 'Nimble', '3.0.0'
+end
+
+post_install do |installer|
+    installer.pods_project.targets.each do |target|
+        if target.platform_name == :tvos || target.platform_name == :watchos then
+            target.build_configurations.each do |config|
+                config.build_settings['ENABLE_BITCODE'] = 'YES'
+            end
+        end
+    end
 end
